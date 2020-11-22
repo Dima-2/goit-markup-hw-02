@@ -1,0 +1,240 @@
+:root {
+--accent-color: #2196F3;
+--main-font: 'Roboto',sans-serif;
+--secondary-font: 'Raleway',sans-serif;
+--main-color: #757575;
+--secondary-color: #212121;
+
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+
+/* =============HEADER=========== */
+
+.logo-header {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.logo-header:focus,
+.logo-header:hover {
+ 
+}
+
+.logo-web {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.address-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-header-lsit-item:hover,
+.address-header-lsit-item:focus {
+ color: var(--accent-color);
+}
+/* =============END HEADER=========== */
+
+/* ==============HERO============== */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+/* color: #FFFFFF; */
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /* color: #FFFFFF; */
+}
+/* ==============END HERO============ */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: imset(100%);
+  clip: rect(0 0 0 0);
+}
+
+/* ============SKILLS=========== */
+
+.title {
+ font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color:var(--main-color);
+}
+
+/* ===============END SKILLS============= */
+
+/* ==============ABOUT============== */
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ==================END ABOUT======== */
+
+/* ==============TEAM============== */
+.item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+   color: var(--secondary-color);
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+/* ==============END TEAM========== */
+
+/* ==============FOOTER============ */
+
+.logo-footer {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  /* color: #FFFFFF;  */
+}
+
+.footer-address-list-navigation {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+/* color: #FFFFFF; */
+}
+
+.footer-address-list-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.footer-address-list-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+  }
+
+  
+  
+
+  }
+
+/* ==========END FOOTER======== */
+.current {
+  color: #2196F3;
+}
+
+
+
+/* ========FILTERS========= */
+
+.filters-list-item-categories {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+ }
+
+ .filters-list-item-current {
+  font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   text-align: center;
+   letter-spacing: 0.03em;
+   /* color: #FFFFFF; */
+ }
+
+ /* ==============END FILTERS======== */
+
+ /* ==============WORK=========== */
+ .work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color)
+ }
+
+ .work-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color:var(--main-color)
+ }
