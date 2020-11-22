@@ -9,6 +9,7 @@
 
 body {
   font-family: var(--main-font);
+  
 }
 
 
@@ -21,6 +22,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  text-decoration: none;
 }
 
 .logo-header:focus,
@@ -44,15 +46,28 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  text-decoration: none;
 }
 
-.address-header {
+.address-header-item-mail {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  text-decoration: none;
+}
+
+.address-header-item-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+  text-decoration: none;
+
 }
 
 .navigation-list-link:hover,
@@ -158,6 +173,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
   /* color: #FFFFFF;  */
 }
 
@@ -167,6 +183,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+text-decoration: none;
 /* color: #FFFFFF; */
 }
 
@@ -176,6 +193,7 @@ letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   /* color: rgba(255, 255, 255, 0.6); */
 }
 
@@ -185,6 +203,7 @@ letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   /* color: rgba(255, 255, 255, 0.6); */
   }
 
@@ -200,6 +219,7 @@ letter-spacing: 0.03em;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  text-decoration: none;
  }
  /* ==============END FILTERS======== */
 
@@ -210,6 +230,7 @@ letter-spacing: 0.03em;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-color)
+  
  }
 
  .work-text {
@@ -218,10 +239,15 @@ letter-spacing: 0.03em;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color:var(--main-color)
+  
  }
 
  .filters-list-item-categories:hover,
  .filters-list-item-categories:focus {
  color: var(--accent-color);
 
+ }
+
+ .navigation-list-link.current {
+   color: var(--accent-color);
  }
