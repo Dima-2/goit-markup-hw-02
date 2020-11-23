@@ -230,7 +230,9 @@ text-decoration: none;
  }
 
  .filters-list-item-button:hover,
- .filters-list-item-button:focus {
+ .filters-list-item-button:focus,
+ .modal-btn:hover,
+ .modal-btn:focus {
    color: var(--accent-color-secondary);
  }
  
