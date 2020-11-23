@@ -1,5 +1,6 @@
 :root {
 --accent-color: #2196F3;
+--accent-color-secondary: #ffffff;
 --main-font: 'Roboto',sans-serif;
 --secondary-font: 'Raleway',sans-serif;
 --main-color: #757575;
@@ -230,7 +231,7 @@ text-decoration: none;
 
  .filters-list-item-button:hover,
  .filters-list-item-button:focus {
-   color: var(--accent-color);
+   color: var(--accent-color-secondary);
  }
  
  /* ==============END FILTERS======== */
@@ -254,12 +255,6 @@ text-decoration: none;
   
  }
 
- .filters-list-item-categories:hover,
- .filters-list-item-categories:focus {
- color: var(--accent-color);
-
- }
-
- .navigation-list-link.current {
+.navigation-list-link.current {
    color: var(--accent-color);
  }
