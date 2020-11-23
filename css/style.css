@@ -9,8 +9,14 @@
 
 body {
   font-family: var(--main-font);
-  
+  }
+  ul {
+    list-style: none;
 }
+a {
+  text-decoration: none;
+}
+
 
 
 /* =============HEADER=========== */
@@ -89,7 +95,7 @@ body {
 /* color: #FFFFFF; */
 }
 
-.button {
+.modal-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -212,7 +218,7 @@ text-decoration: none;
 
 /* ========FILTERS========= */
 
-.filters-list-item-categories {
+.filters-list-item-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -221,6 +227,12 @@ text-decoration: none;
   color: #212121;
   text-decoration: none;
  }
+
+ .filters-list-item-button:hover,
+ .filters-list-item-button:focus {
+   color: var(--accent-color);
+ }
+ 
  /* ==============END FILTERS======== */
 
  /* ==============WORK=========== */
